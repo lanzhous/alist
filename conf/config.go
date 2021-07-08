@@ -1,8 +1,8 @@
 package conf
 
 type Drive struct {
-	AccessToken    string `yaml:"-"`
 	RefreshToken   string `yaml:"refresh_token"`
+	AccessToken    string `yaml:"access_token"`
 	RootFolder     string `yaml:"root_folder"` //根目录id
 	Name           string `yaml:"name"`
 	Password       string `yaml:"password"`
